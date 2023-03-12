@@ -1,28 +1,52 @@
 const episodes = [
   {
-    img: "./assets/images/episodes/episode1.svg",
-    title: "When You're Lost in the Darkness",
+    img: "./src/img/episodes/episode1.jpeg",
+    title: "1 - When You're Lost in the Darkness",
     description:
       " In 2003, a mass fungal infection of mutated Cordyceps sparks a global pandemic. Joel flees with his daughter, Sarah, and brother, Tommy, from their Texas home; Sarah is killed by asoldier.",
   },
 
   {
-    img: "./assets/images/episodes/episode2.svg",
-    title: "Infected",
+    img: "./src/img/episodes/episode2.png",
+    title: "2 - Infected",
     description:
       " Two days before the worldwide outbreak, in Jakarta, Indonesia, the government shows an infected corpse to a mycologist, who tells them there is no cure or vaccine.",
   },
   {
-    img: "./assets/images/episodes/episode3.svg",
-    title: "Long, Long Time",
+    img: "./src/img/episodes/episode3.jpg",
+    title: "3 - Long, Long Time",
     description:
       " Joel and Ellie begin the hike to meet with Bill and Frank. Ellie sees evidence of the government's execution of innocents during the early days of the pandemic.",
   },
   {
-    img: "./assets/images/episodes/episode4.svg",
-    title: "Please Hold to My Hand",
+    img: "./src/img/episodes/episode4.jpg",
+    title: "4 - Please Hold to My Hand",
     description:
       " Traveling through Missouri, Joel and Ellie are forced to take a detour through Kansas City, where they are ambushed.",
+  },
+  {
+    img: "./src/img/episodes/episode5.png",
+    title: "5 - Resist and Survive",
+    description:
+      " While trying to evade the rebels, Joel and Ellie cross paths with Kansas City's most wanted man. Kathleen continues her hunt.",
+  },
+  {
+    img: "./src/img/episodes/episode6.jpg",
+    title: "6 - Kinship",
+    description:
+      " After ignoring the locals' advice, Joel and Ellie enter dangerous territory in search of the Fireflies and Tommy.",
+  },
+  {
+    img: "./src/img/episodes/episode7.jpg",
+    title: "7 - What We Leave Behind",
+    description:
+      " As Joel struggles to survive, Ellie remembers the night everything changed.",
+  },
+  {
+    img: "./src/img/episodes/episode8.jpg",
+    title: "8 - When We Most Need It",
+    description:
+      " Ellie comes across a vengeful group of survivors and catches the attention of their leader. A weakened Joel faces a new threat.",
   },
 ];
 

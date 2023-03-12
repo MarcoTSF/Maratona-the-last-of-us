@@ -21,8 +21,8 @@
 /* TELA 01 */
 
 .home {
-  height: 900px;
-  background-image: url("../images/background.svg");
+  height: 950px;
+  background-image: url("../img/background.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top right;
@@ -59,7 +59,7 @@ ul > li > a:hover {
 
 main {
   width: 80vw;
-  margin: 0 auto;
+  margin: 50px auto;
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -138,16 +138,31 @@ section > ul {
 section > ul > li {
   height: 139px;
   width: 261px;
-  background-image: url("../images/inside/relationship.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top right;
+  color: var(--color-grey-2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section > ul > .survival {
+  background-image: url("../img/inside/survival.svg");
+}
+
+section > ul > .adventure {
+  background-image: url("../img/inside/adventure.svg");
+}
+
+section > ul > .relationship {
+  background-image: url("../img/inside/relationship.svg");
 }
 
 /* TELA 02 */
 .episodes {
   height: 900px;
-  background-image: url("../images/backgroundEpisodes.png");
+  background-image: url("../img/backgroundEpisodes.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top right;
@@ -181,20 +196,25 @@ section > ul > li {
   width: 650px;
   display: flex;
   align-items: center;
-  margin: 10px auto;
+  margin: 0 auto;
   background-color: var(--color-grey-3);
 }
 
 .episodes-list::-webkit-scrollbar {
-  background-color: var(--color-secondary); /* color of the scroll thumb */
+  background-color: var(--color-grey-3); /* color of the scroll thumb */
   border-radius: 20px; /* roundness of the scroll thumb */
-  border: 3px solid black; /* creates padding around scroll thumb */
 }
 
-.card > img {
+.episodes-list::-webkit-scrollbar-thumb {
+  background-color: var(--color-secondary); /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+}
+
+.card img {
   height: 120px;
   width: 250px;
   border-radius: 12px;
+  margin-left: 20px;
 }
 
 .card-text {

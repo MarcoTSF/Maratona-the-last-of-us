@@ -13,18 +13,13 @@ Projeto desenvolvido para o evento Maratona Kenzie dia 11/03/2023.
 
 - README.md
 - index.html
-- /assets
+- /src
   - /img
-  - /styles
+  - /css
     - style.css
     - global.css
-  - /script
+  - /js
     - script.js
-- /explicacao
-  - explicacao.css
-  - explicacao.html
-  - explicacao.js
-  - teste.html
 
 ### Fontes
 
@@ -45,7 +40,7 @@ Projeto desenvolvido para o evento Maratona Kenzie dia 11/03/2023.
 
 - [Layout Maratona Last Of Us](https://www.figma.com/file/E8MXdl9rjgThlbZYMAjX39/Maratona-Kenzie---The-Last-of-Us?node-id=0%3A1&t=Y8d5G0K9jA49u9yj-0)
 
-## LinkedIn das Instrutoras
+## LinkedIn dos Instrutores
 
 - [Nicole Pimenta](https://www.linkedin.com/in/nicole-pimenta/)
 - [Luiz Paulo Reis](https://www.linkedin.com/in/luiz-paulo-reis-cardoso/)
